@@ -1,0 +1,43 @@
+body{
+    font-family: "Currier", sans-serif;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    margin: -1px auto;
+}
+
+article.main-content{
+article.main-content{
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+h1{
+    color: grey;
+    font-size: 4.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+}
+img{
+    max-width: 100%;
+}
+/* ------------------------------------------------
+                    parallax
+ ------------------------------------------------*/
+.bird-box{
+    position: relative;
+    height: 600px;
+    background: #fff url("../_images/winter.jpg") no-repeat fixed center top;
+}
+
+.logo{
+    height: 100px;
+    width: 100%;
+    background: transparent url("../_images/winter-logo.png") no-repeat center;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}

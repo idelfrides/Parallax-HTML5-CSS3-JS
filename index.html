@@ -1,7 +1,7 @@
 <!DOCTYPE html5>
 <html lang="pt-br">
 <head>
-    <title>Parallax </title>
+    <title>Parallax</title>
     <meta name="author" content="Idelfrides Jorge">
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -16,12 +16,43 @@
     <meta property="og:discription" content="Testing Parallax without framework">
     <meta property="og:image" content="_images/logo-meta.png">
     <meta property="og:locale" content="pt_BR">
+
+    <link rel="stylesheet" href="_css/estilo.css">
+
+    <!-- including jQuery on this project
+        1. Google CDN
+        2. Microsoft CDN
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-    <h1>Hello Word</h1>
+    <header class="bird-box ">
+        <div class="back-bird"></div>
+        <div class="logo"></div>
+        <div class="fire-bird"></div>
+    </header>
 
-    <h2>THIS IS WAR MACHINE <br><br>My first project wiht Parallax</h2>
+    <section class="main-content">
+        <article class="main-content" id="content">
+            <h1>Initial Text Page</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut gravida dui ac quam convallis scelerisque.
+                Sed mauris libero, tempus porttitor ullamcorper sit amet,
+                aliquam quis lorem. In at elit eget erat faucibus consequat sed id est.
+                Aenean tortor velit, pharetra vitae mattis non, elementum id nisl.
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Mauris luctus ipsum sem,
+                sit amet convallis mauris malesuada quis.
+                Maecenas vel dolor vitae est malesuada fermentum. Morbi vel cursus massa.
+                Nullam vestibulum blandit eleifend.
+            </p>
+        </article>
+    </section>
+    <div style="height: 2000px"></div>
+
 
 </body>
 </html>
