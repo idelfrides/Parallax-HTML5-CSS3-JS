@@ -12,6 +12,7 @@ article.main-content{
     margin: 0 auto;
     text-align: center;
     border: 1px solid orange;
+    align-content: center;
 }
 
 h1{
