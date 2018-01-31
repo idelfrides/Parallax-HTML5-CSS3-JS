@@ -7,7 +7,6 @@ body{
 }
 
 article.main-content{
-article.main-content{
     padding: 100px 0;
     max-width: 640px;
     margin: 0 auto;
@@ -23,6 +22,7 @@ h1{
 }
 img{
     max-width: 100%;
+    background-color: transparent;
 }
 /* ------------------------------------------------
                     parallax
@@ -31,8 +31,9 @@ img{
     position: relative;
     height: 600px;
     background: #fff url("../_images/winter.jpg") no-repeat fixed center top;
+    overflow: hidden;
 }
-
+/*
 .logo{
     height: 100px;
     width: 100%;
@@ -40,4 +41,28 @@ img{
     position: absolute;
     top: 50%;
     margin-top: -50px;
+}*/
+
+#lorem{
+    text-align: justify;
+}
+.fire-bird{
+    width: 960px;
+    height: 733px;
+    background: transparent url("../_images/b.png") no-repeat right bottom;
+    position: absolute;
+    left: 25%;
+    top: -90px;
+}
+.back-bird{
+    width: 960px;
+    height: 733px;
+    background: transparent url("../_images/BlackBirdLogo-260x260.png") no-repeat left top;
+    position: absolute;
+    left: 10%;
+    margin-left: 80px;
+}
+
+.logo{
+
 }
