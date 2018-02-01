@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d27ab8-f2c3-499f-bfdf-c8d88e7caccc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/_css/estilo-rodape.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_images/blazer-creme.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_images/blazer-masculino.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_images/blazermasculino3-500x500.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_css/estilo.css" afterPath="$PROJECT_DIR$/_css/estilo.css" />
+      <change beforePath="$PROJECT_DIR$/_images/BlackBirdLogo-1024x1024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_images/Brewers_RonKube.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_images/b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_images/red-winged-blackbird-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_js_jquery/funcoes.js" afterPath="$PROJECT_DIR$/_js_jquery/funcoes.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/winter-logo2.xcf" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,23 +21,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1491">
-              <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+            <state relative-caret-position="7410">
+              <caret line="271" column="21" lean-forward="true" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#11243#11249#0" expanded="true" />
+                <element signature="e#11274#11280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="estilo-rodape.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_css/estilo-rodape.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="3840">
+              <caret line="128" column="12" lean-forward="false" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -43,8 +57,8 @@
       <file leaf-file-name="funcoes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_js_jquery/funcoes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="270">
+              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -55,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -69,6 +83,7 @@
         <option value="$PROJECT_DIR$/_style/css.css" />
         <option value="$PROJECT_DIR$/_js_jquery/funcoes.js" />
         <option value="$PROJECT_DIR$/_css/estilo.css" />
+        <option value="$PROJECT_DIR$/_css/estilo-rodape.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -165,17 +180,18 @@
       <option name="presentableId" value="Default" />
       <updated>1517252083252</updated>
       <workItem from="1517252084709" duration="28734000" />
-      <workItem from="1517409330022" duration="923000" />
+      <workItem from="1517409330022" duration="22421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29657000" />
+    <option name="totallyTimeSpent" value="51155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -211,7 +227,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11243#11249#0" expanded="true" />
+            <element signature="e#11274#11280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -232,29 +249,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_css/estilo.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/media.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="799">
+          <caret line="204" column="16" lean-forward="false" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_js_jquery/funcoes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/estilo-rodape.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1491">
-          <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        <state relative-caret-position="7410">
+          <caret line="271" column="21" lean-forward="true" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11243#11249#0" expanded="true" />
+            <element signature="e#11274#11280#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="128" column="12" lean-forward="false" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,11 +6,11 @@ $(window).scroll(function () {
         'transform': 'translate(0, ' + wScroll / 2 + '%)'
     });
 
-    $('.back-bird').cssRules({
-        'transform': 'translate(0, ' + wScroll / 4 + '%)'
+    $('.back-bird').css({
+        'transform': 'translate(0, ' + wScroll / 2 + '%)'
     });
 
-    $('.fire-bird').cssRules({
+    $('.fire-bird').css({
         'transform': 'translate(0, ' + wScroll / 40 + '%)'
     });
 });

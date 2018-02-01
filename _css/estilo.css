@@ -7,12 +7,15 @@ body{
 }
 
 article.main-content{
-    padding: 100px 0;
+    padding: 50px 0;
     max-width: 640px;
     margin: 0 auto;
     text-align: center;
     border: 1px solid orange;
     align-content: center;
+}
+.lorem{
+    color: #808080;
 }
 
 h1{
@@ -21,6 +24,13 @@ h1{
     line-height: 1.2;
     letter-spacing: -.1rem;
 }
+h2{
+    color: grey;
+    font-size: 3.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+}
+
 img{
     max-width: 100%;
     background-color: transparent;
@@ -34,36 +44,98 @@ img{
     background: #fff url("../_images/winter.jpg") no-repeat fixed center top;
     overflow: hidden;
 }
-/*
+
 .logo{
     height: 100px;
     width: 100%;
-    background: transparent url("../_images/winter-logo.png") no-repeat center;
+    background: transparent url("../_images/winter-logo-web.gif") no-repeat center;
     position: absolute;
     top: 50%;
     margin-top: -50px;
-}*/
+    max-width: 100%;
+}
 
-#lorem{
-    text-align: justify;
+.back-bird{
+    width: 260px;
+    height: 260px;
+    background: transparent url("../_images/BlackBirdLogo-260x260.png") no-repeat left top;
+    position: absolute;
+    left: 8%;
+    margin-left: 80px;
+    max-width: 100%;
 }
 .fire-bird{
     width: 960px;
     height: 733px;
-    background: transparent url("../_images/b.png") no-repeat right bottom;
+    background: transparent url("../_images/bird_2.png") no-repeat right bottom;
     position: absolute;
     left: 25%;
-    top: -90px;
-}
-.back-bird{
-    width: 960px;
-    height: 733px;
-    background: transparent url("../_images/BlackBirdLogo-260x260.png") no-repeat left top;
-    position: absolute;
-    left: 10%;
-    margin-left: 80px;
+    top: -110px;
+    max-width: 100%;
 }
 
-.logo{
+.imagens{
+    /*margin-bottom: 100px;*/
+    width: 80%;
+    align-content: center;
+    border: 3px solid pink;
+    margin: auto 10% 100px 10%;
+}
 
+.row{
+    align-content: center;
+    border: 2px solid black;
+    width: 84%;
+    margin: 2px 8%;
+}
+
+.imagens figure{
+    margin-top: 20px;
+    position: relative;
+    /*opacity: 0;*/
+    transform: translateX(30px);
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+}
+.imagens figure.is-showing{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.imagens figure img{
+    display: block;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+    height: 300px;
+}
+
+.imagens-horiz{
+    width: 100%;
+    align-content: center;
+    border: 3px solid pink;
+    margin: auto auto 100px auto;
+}
+
+.imagens_horiz figure{
+    display: inline;
+    position: relative;
+}
+.img_3 {
+    align-content: center;
+    border: 2px solid black;
+    width: 70%;
+    margin: 100px auto;
+}
+
+
+.img_3 figure{
+    align-content: center;
+    display: inline-block;
+}
+.img_3 figure img{
+    width: 250px;
+    height: 300px;
 }
